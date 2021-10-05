@@ -23,7 +23,8 @@ export default {
           "Cross-Origin-Opener-Policy": "same-origin",
           "Cross-Origin-Embedder-Policy": "require-corp",
         },
-        // this is the default port, but you can configure this. The hostname and protocol are determined by Snowpack's config
+        // This is the default port, but you can configure this. 
+        // The hostname and protocol are determined by Snowpack's config.
         port: 9001
       },
     ],
