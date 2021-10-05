@@ -4,7 +4,7 @@ Allow snowpack to serve a custom set of headers during development
 
 ### Usage
 
-First install the package `npm i https://github.com/samueljseay/snowpack-custom-headers -D` or with yarn `yarn add https://github.com/samueljseay/snowpack-custom-headers --dev`
+First install the package `npm i snowpack-custom-headers -D` or with yarn `yarn add snowpack-custom-headers --dev`
 
 ```javascript
 // in snowpack.config.mjs
