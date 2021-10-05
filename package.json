@@ -1,0 +1,15 @@
+{
+  "name": "snowpack-custom-headers",
+  "version": "0.0.1",
+  "description": "",
+  "main": "snowpack-custom-headers.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Samuel Seay",
+  "license": "MIT",
+  "dependencies": {
+    "http-proxy": "^1.18.1",
+    "execa": "^5.1.1"
+  }
+}
