@@ -5,7 +5,7 @@ module.exports = function (snowpackConfig, pluginOptions) {
     name: "snowpack-custom-headers",
     async run({ log }) {
       // Don't run the server when building
-      if (process.env.NODE_ENV === "production") {
+      if (process.env.NODE_ENV !== "development") {
         return;
       }
 
