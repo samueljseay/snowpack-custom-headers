@@ -1,6 +1,6 @@
 {
   "name": "snowpack-custom-headers",
-  "version": "0.0.3",
+  "version": "0.0.5",
   "description": "",
   "main": "snowpack-custom-headers.js",
   "scripts": {
