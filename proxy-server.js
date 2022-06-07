@@ -24,6 +24,10 @@ proxy.on("proxyRes", function (proxyRes, req, res, options) {
   });
 });
 
+proxy.on("error", function (proxyRes, req, res) {
+  res.end();
+});
+
 var server = http.createServer(function (req, res) {
   proxy.web(req, res, {
     target: `${secure === "true" ? "https" : "http"}://${hostname}:${port}`,

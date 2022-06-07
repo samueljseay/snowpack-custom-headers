@@ -4,6 +4,12 @@ module.exports = function (snowpackConfig, pluginOptions) {
   return {
     name: "snowpack-custom-headers",
     async run({ log }) {
+      console.log("headers running. your env:" + process.env.NODE_ENV);
+      // Don't run the server when building
+      if (process.env.NODE_ENV !== "development") {
+        return;
+      }
+
       const port = pluginOptions.port || "9001";
       log(`proxying headers on port ${port}`);
 
